@@ -21,7 +21,7 @@ public class HelloService {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
-        return "Get it!";
+        return "GET it!";
     }
 
     /**
@@ -33,6 +33,6 @@ public class HelloService {
     @POST
     @Produces(MediaType.TEXT_PLAIN)
     public String postIt() {
-        return "Post it!";
+        return "POST it!";
     }
 }
